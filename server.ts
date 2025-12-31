@@ -1,6 +1,6 @@
 import { serve } from "@std/http";
 import { v4 } from "@std/uuid";
-import { acceptable, acceptWebSocket, WebSocket } from "@std/websocket";
+import { acceptable, acceptWebSocket, WebSocket } from "@std/websocket";   
 
 // Game imports
 import { GameManager } from "./game-manager.ts";
@@ -267,3 +267,4 @@ console.log(`Server running on http://localhost:${port}`);
 
 
 serve(handler, { port });
+
